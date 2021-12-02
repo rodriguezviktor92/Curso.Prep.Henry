@@ -1,0 +1,35 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes 
+conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a 
+descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Variables
+Para entenderlo de forma visual se puede decir que son cajas en las cuales podemos agregar informacion
+la cual mas adelante puede ser modificada, dicha caja tambien se podria definir que tipo de informacion
+se debe agregar por ejemplo caja para guardar solo numeros, caja para guardar texto.
+La informacion guardada en estas cajas puede ser usada mas adelante por ejemplo mostrar la informacion
+que contiene o realizar operaciones matematicas.
+
+* Strings
+Es un tipo de variable que contiene cadenas alfanumericas
+
+* Funciones (argumentos, `return`)
+Son una serie de instrucciones que se usaran de forma repetitiva y para evitar escribir las mismas
+instruciones varias veces todas se agrupan y cuando son necesarias se ejecutan.
+
+* Declaraciones `if`
+Sirve para evaluar posibles eventos y basados en el resultado tomar decisiones por ejemplo:
+Si eres mayor de edad puedes tomar alcohol
+
+
+* Valores booleanos (`true`, `false`)
+Una variable puede ser declarada true o false, y el resultado de una comparacion tambien puede ser
+true o false asi que estos 2 valores nos ayuda en validaciones y en la toma de decisiones ejemplo:
+
+var edadJuan = 12;
+if (edadJuan > 18){
+    console.log('Es mayor de edad');
+}else{
+    console.log('Es menor de edad');
+}
+Juan dice que tiene 12 años con el if verificamos si la edad de juan es mayor a 18 como juan tiene
+12 años el resultado es FALSE y si muestra un mensaje indicando que es menor de edad.
