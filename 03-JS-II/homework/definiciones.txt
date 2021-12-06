@@ -1,0 +1,36 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+Es un estructura de ciclo que nos ayuda a repetir n veces las lineas de codigo que necesitemos
+Ejemplo imprimir el contenido de un array
+const numPrimos = [2,3,5];
+for (let i = 0; i < numPrimos.length; i++) {
+    console.log(numPrimos[i]);    
+}
+resultado
+2
+3
+5
+
+* `&&`, `||`, `!`
+Estos son operadores logicos que nos ayudan ahcer validaciones.
+
+Por ejemplo: && en español significa "y"
+si tengo 18 año Y tengo dinero
+    puedo salir a comer
+if(edad==18 && dinero==100)
+En caso que las 2 condiciones sean positivas se puede seguir adelante si alguna de las 2 condiciones
+no se cumple no se puede continuar.
+
+|| en español significa "o"
+si tengo dinero o alguien me invita
+    puedo salir al cine
+if(dinero==100 || invitacion==true)
+En este caso se puede continuar si 1 de las condiciones se cumple
+
+! en español significaria algo como negacion se aplica a variable de tipo bool y lo que hace es
+invertir el valor ejemplo
+var uno =1;
+uno == 1 el resultado es true
+pero si hacemos la negacion 
+!(uno == 1) el resultado es false
