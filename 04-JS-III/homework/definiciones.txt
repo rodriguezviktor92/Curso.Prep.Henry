@@ -1,0 +1,6 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+Se puede pensar en el array como una gran caja con muchos compartimentos en los cuales
+podemos almacenar elementos y a cada elemento se le asigna un identificar, gracias al cual mas
+adelante podras encontrar facilmente ese elemento.
