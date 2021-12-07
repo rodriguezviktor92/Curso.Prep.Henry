@@ -1,0 +1,24 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+    * Propiedades
+    Un objeto es un conjunto de propiedades y cada propiedad se le asigna una key y un valor.
+    Un ejemplo de algo relacionado a dia a dia seria una mesa la mesa es el objeto
+    esta mesa tiene: color, ancho, alto y tipo de madera esas son sus propiedades
+    var mesa = {
+        color:negro,
+        anchoM:1,
+        altoM:1,
+        tipoMadera:'roble'
+    }
+	
+	* Métodos
+    Se llama metodo a una funcion que esta declarada dentro del objeto o fue instanciada al objeto.
+
+	* Bucle `for…in`
+    Es un bucle similar a for nos permite recorrer un objeto pasando por cada una de sus combinaciones
+    de clave, valor.
+
+	* Notación de puntos vs notación de corchetes
+    Notacion de puntos es mas facil de escribir.
+    Notacion de corchetes me permite iterar usando el valor de una variable.
