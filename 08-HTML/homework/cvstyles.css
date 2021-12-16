@@ -1,0 +1,43 @@
+body,html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat !important;
+}
+
+h1{
+    color: rgb(255, 188, 26);    
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+img{
+    border-radius: 30px;
+}
+
+.bg{
+    background-color: rgb(56, 56, 56) !important;
+    clip-path: polygon(9% 0, 100% 0%, 100% 100%, 32% 100%);
+}
+.bg-yellow{
+    background-color: rgb(255, 188, 26);
+}
+.profile{
+    position: fixed;
+    top: 0%;
+    left: 6%;
+}
+
+ul{
+    list-style-type: none;
+}
+span{
+    background-color: white;
+    border-radius: 30px;
+    padding: 12px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
