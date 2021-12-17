@@ -18,6 +18,19 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  var result= [];
+
+  string.forEach(letter => {
+    string.every(function (element) {
+      
+      if(element == letter){
+        result.push(element);
+      }
+
+    });
+  });
+
+  console.log(result);
 }
 
 
